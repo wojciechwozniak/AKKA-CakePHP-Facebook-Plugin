@@ -377,6 +377,9 @@ class GraphComponent extends Component {
 	    $this->_configs['user_columns']['first_name'] => $this->FacebookFirstName,
 	    $this->_configs['user_columns']['last_name'] => $this->FacebookLastName,
 	    $this->_configs['user_columns']['password'] => $this->__randomPassword(),
+        'created' => date("Y-m-d H:i:s"),
+        'update' => date("Y-m-d H:i:s"),
+        'auth_user_group_id' => '1',
 	    'facebook_id' => $this->FacebookId,
 	    'email' => $this->FacebookEmail
 	];
