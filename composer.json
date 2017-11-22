@@ -1,31 +1,35 @@
 {
-    "name": "wojciechwozniak/cakephp-facebook",
-    "description": "CakePHP 3 Facebook Plugin",
-    "type": "cakephp-plugin",
-    "keywords": ["cakephp", "cakephp3", "facebook"],
-    "license": "MIT",
-    "authors": [
-	{
-	    "name": "Andre Santiago",
-	    "email": "admin@akkaweb.com"
-	}
-    ],
-    "require": {
-	"php": ">=5.4",
-	"facebook/php-sdk-v4": "^5.0."
-    },
-    "require-dev": {
-	"phpunit/phpunit": "*"
-    },
-    "autoload": {
-	"psr-4": {
+  "name": "wojciechwozniak/cakephp-facebook",
+  "description": "CakePHP 3 Facebook Plugin - Facebook SDKv5",
+  "type": "cakephp-plugin",
+  "keywords": [
+    "cakephp",
+    "cakephp3",
+    "facebook"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andre Santiago",
+      "email": "admin@akkaweb.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "facebook/php-sdk": "^5.0."
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
       "Akkaweb\\Facebook\\": "src"
-	}
-    },
-    "autoload-dev": {
-	"psr-4": {
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
       "Akkaweb\\Facebook\\Test\\": "tests",
       "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
-	}
     }
+  }
 }
