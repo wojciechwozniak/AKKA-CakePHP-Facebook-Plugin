@@ -12,23 +12,20 @@
     ],
     "require": {
 	"php": ">=5.4",
-	"facebook/php-sdk-v4": "5.0."
+	"facebook/php-sdk-v4": "^5.0."
     },
     "require-dev": {
 	"phpunit/phpunit": "*"
     },
     "autoload": {
 	"psr-4": {
-	    "AkkaFacebook\\": "src"
+      "Akkaweb\\Facebook\\": "src"
 	}
     },
     "autoload-dev": {
 	"psr-4": {
-	    "AkkaFacebook\\Test\\": "tests",
-	    "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+      "Akkaweb\\Facebook\\Test\\": "tests",
+      "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
 	}
-    },
-    "extra": {
-	"installer-name": "AkkaFacebook"
     }
 }

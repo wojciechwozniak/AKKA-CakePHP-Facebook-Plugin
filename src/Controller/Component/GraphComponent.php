@@ -372,6 +372,7 @@ class GraphComponent extends Component {
      */
     protected function __newAccount()
     {
+        date_default_timezone_set('Europe/Warsaw');
 	$data = [
 	    $this->_configs['user_columns']['username'] => $this->__generateUsername(),
 	    $this->_configs['user_columns']['first_name'] => $this->FacebookFirstName,
